@@ -29,7 +29,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  double _counter = 0;
 
   void _incrementCounter() {
     setState(() {
@@ -51,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _divideCounter() {
     setState(() {
-      _counter+=2;
+      _counter = _counter / 2;
     });
   }
 
